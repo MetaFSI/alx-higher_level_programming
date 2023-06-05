@@ -9,18 +9,18 @@
  * @next: points to the next node
  *
  * Description: link a single list node structure
- * for Python - Hello, World project
+ * for Python - Hello, World 10-13 tasks.
  */
-typedef struct listint_s
+typedef struct intList_s
 {
 	int n;
-	struct listint_s *next;
-} listint_t;
+	struct IntList_s *next;
+} intList_t;
 
-size_t print_listint(const listint_t *h);
-listint_t *add_nodeint(listint_t **head, const int n);
-void free_listint(listint_t *head);
-int check_cycle(listint_t *list);
+size_t print_listint(const intList_t *h);
+listint_t *add_nodeint(intList_t **head, const int n);
+void free_listint(intList_t *head);
+int checking(intList_t *lsTT);
 
 #endif /* LISTS_H */
 
