@@ -4,23 +4,19 @@
 #include <stdlib.h>
 
 /**
- * struct listint_s - link single list
- * @n: integer
- * @next: points to the next node
+ * struct intList_s - linked list as single
+ * @n: int variale
+ * @suevent: suevent node to be pointed
  *
- * Description: link a single list node structure
- * for Python - Hello, World 10-13 tasks.
+ * Description: linked list as single node structure
+ * alx phyton hello
  */
 typedef struct intList_s
 {
 	int n;
-	struct IntList_s *next;
+	struct intList_s *suevent;
 } intList_t;
 
-size_t print_listint(const intList_t *h);
-listint_t *add_nodeint(intList_t **head, const int n);
-void free_listint(intList_t *head);
-int checking(intList_t *lsTT);
+int checking(intList_t *listing);
 
 #endif /* LISTS_H */
-
