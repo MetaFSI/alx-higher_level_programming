@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 import this
 
-print("The Zen of Python, by Tim Peters\n")
+zen_of_python = this.s.replace("    ", "").replace("   ", " ").replace("\n\n", "\n")
+print(zen_of_python)
 
