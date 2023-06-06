@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+# 2-print_alphabet.py
 
-for char in range(ord('a'), ord('z') + 1):
-    print(chr(char), end='')
+"""Print alphabet in lowercase, no new line."""
+for lett in range(97, 123):
+    print("{}".format(chr(lett)), end="")
