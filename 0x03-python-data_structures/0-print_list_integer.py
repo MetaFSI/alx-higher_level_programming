@@ -1,7 +1,9 @@
 #!/usr/bin/python3
-#task 1
+# 0-print_list_integer.py file
 
-def print_list_integer(listI):
-    for i in range(len(listI)):
-        print("{:d}".format(listI[i])) 
+
+def print_list_integer(my_list=[]):
+    """Printing integers of a list"""
+    for i in range(len(my_list)):
+        print("{:d}".format(my_list[i]))
 
