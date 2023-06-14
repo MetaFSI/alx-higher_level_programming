@@ -1,3 +1,8 @@
 #!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
-    return [[y ** 2 for y in x] for x in matrix]
+    new_matrix = matrix.copy()
+
+    for i in range(len(matrix)):
+        new_matrix[i] = list(map(lambda x: x**2, matrix[i]))
+
+    return (new_matrix)
